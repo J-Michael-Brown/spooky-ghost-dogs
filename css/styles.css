@@ -2,8 +2,8 @@
   display: none;
 }
 
-#hidden {
-  
+#fade{
+  display: none;
 }
 
 .clickable {
@@ -12,5 +12,14 @@
 }
 
 .clickable:hover {
+  text-decoration: underline;
+}
+
+.click {
+  cursor: pointer;
+  color: #771177;
+}
+
+.click:hover {
   text-decoration: underline;
 }
