@@ -1,0 +1,16 @@
+#showing {
+  display: none;
+}
+
+#hidden {
+  
+}
+
+.clickable {
+  cursor: pointer;
+  color: #771177;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
