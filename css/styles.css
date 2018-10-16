@@ -2,13 +2,13 @@
   display: none;
 }
 
-#fade{
+#hero-arrives{
   display: none;
 }
 
 .clickable {
   cursor: pointer;
-  color: #771177;
+  color: #8811ff;
 }
 
 .clickable:hover {
@@ -17,7 +17,7 @@
 
 .click {
   cursor: pointer;
-  color: #771177;
+  color: #8811ff;
 }
 
 .click:hover {

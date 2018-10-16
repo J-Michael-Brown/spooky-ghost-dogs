@@ -1,10 +1,12 @@
 $ (document).ready(function(){
   $ (".clickable").click(function() {
-    $ ("#showing").toggle();
-    $ ("#hidden").toggle();
+    $ ("#showing").slideToggle();
+    $ ("#hidden").slideToggle();
+    // $ ("#fade").toggle();
   });
 
   $ (".click").click(function() {
-    $ ("#fade").fadeIn();
+    $ ("#hero-leaves").fadeToggle();
+    $ ("#hero-arrives").fadeToggle();
   });
 });
